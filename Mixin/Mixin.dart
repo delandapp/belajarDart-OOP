@@ -15,12 +15,12 @@ class Video extends multimedia with Playable,Stopable {
 
 }
 
-class Audio with Playable,Stopable {
+// class Audio with Playable,Stopable {
 
-}
+// }
 
-void main() {
-  Audio audio = Audio();
-  audio.name = 'Deland';
-  audio.play();
-}
+// void main() {
+//   Audio audio = Audio();
+//   audio.name = 'Deland';
+//   audio.play();
+// }
