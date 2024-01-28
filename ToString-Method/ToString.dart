@@ -7,7 +7,7 @@ import '../data/product.dart';
  */
 
 void main() {
-  Product product = Product();
+  Product product = Product('Apple', 2000, '1') ;
   product.name = 'Apple Minuman';
   product.id = '1';
   print(product.toString());
