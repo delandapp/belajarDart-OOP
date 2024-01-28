@@ -1,4 +1,8 @@
-mixin Playable {
+abstract class multimedia {
+
+}
+
+mixin Playable on multimedia {
   String? name;
 
   void play()=>print('play $name');
